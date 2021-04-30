@@ -1,0 +1,33 @@
+@import "./styles/common";
+
+body {
+  background: $background;
+}
+
+.copyright {
+  position: absolute;
+  z-index: 1;
+  color: grey;
+  font-size: 15px;
+  right: 0;
+  font-family: Roboto;
+  font-weight: 100;
+  margin-right: 2em;
+  bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .loading-screen {
+    display: none;
+  }
+  .ring {
+    display: none;
+  }
+
+  .header p,
+  button,
+  .media,
+  h1 {
+    display: none;
+  }
+}

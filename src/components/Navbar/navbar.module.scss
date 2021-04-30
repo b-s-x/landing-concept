@@ -1,0 +1,45 @@
+@import "../../styles/common";
+
+.logo {
+  margin-left: 52px;
+  margin-top: 42px;
+  fill: $logo;
+  width: 50px;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  &__contact {
+    color: $text--common;
+    font-size: 12px;
+    margin-right: 30px;
+
+    &:hover {
+      border-bottom: 1px dashed $text--common;
+    }
+  }
+
+  &__menu {
+    color: $evergreen;
+    font-size: 20px;
+    border: 1px solid transparent;
+    padding: 15px;
+
+    &:hover {
+      border: 1px solid $evergreen;
+      padding: 15px;
+      border-radius: 15px;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import '../../styles/common';
+
+.content {
+  position: absolute;
+  top: 46%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  width: 45vw;
+  z-index: 1;
+
+  &__title {
+    color: $title--color;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: calc(32px + 1vw + 0.8vh);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
+
+.text {
+  color: $text--common;
+  font-family: "Roboto";
+  line-height: calc(28px + 0.5vw + 0.2vh);
+  max-width: 1000px;
+  font-size: calc(4px + 1vw + 0.8vh)
+}
+
+.text1 {
+  margin-bottom: calc(25px + 0.5vh)
+}
+
+.btn {
+  &__item {
+    margin-right: 30px;
+    padding: 20px 30px;
+    border: none;
+    color: #fff;
+    font-size: calc(8px + 0.5vw);
+    letter-spacing: 4px;
+    font-weight: 1000;
+  }
+}
+
+#one {
+  background: none;
+  border: 0.3pt solid rgba(255, 255, 255, 0.3);
+}
+
+#two {
+  background: linear-gradient(135deg, rgb(106, 219, 157) 0%, rgb(23, 167, 88) 100%);
+}
+
+.media {
+  margin-top: 50px;
+  display: flex;
+  z-index: 1;
+
+  &__container {
+    margin-left: 30px;
+  }
+
+  &__item {
+    color: grey;
+    padding: 12px 8px;
+    display: inline-block;
+  }
+}
+
+ion-icon {
+  width: 40px;
+  height: 30px
+}
