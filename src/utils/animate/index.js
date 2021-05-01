@@ -111,3 +111,13 @@ export const animateContent = (
     ease: Power3.easeInOut
   });
 }
+
+export const animateCopyright = (item) => {
+  gsap.from(`.${item}`, {
+    delay: 2,
+    duration: 3,
+    opacity: 0,
+    y: 20,
+    ease: Expo.easeInOut
+  });
+}

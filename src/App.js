@@ -1,27 +1,15 @@
 import React, { useEffect } from 'react'
-import { Expo, TimelineLite } from 'gsap'
-import './App.scss'
-
 import { Loader } from './components/Loader/Loader'
 import { Content } from './components/Content/Content'
 import { Navbar } from './components/Navbar/Navbar'
+import { animateCopyright } from './utils/animate'
+import './App.scss'
 
 export const App = () => {
 
-  const line1 = new TimelineLite()
-  const line2 = new TimelineLite()
-
   useEffect(() => {
-
-    line1.from(".copyright", {
-      delay: 2,
-      duration: 3,
-      opacity: 0,
-      y: 20,
-      ease: Expo.easeInOut
-    });
+    animateCopyright("copyright")
   }, [])
-
 
   return (
     <div>
