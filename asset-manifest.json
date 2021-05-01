@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/landing-concept/static/css/main.6922a833.chunk.css",
-    "main.js": "/landing-concept/static/js/main.38a40cb5.chunk.js",
-    "main.js.map": "/landing-concept/static/js/main.38a40cb5.chunk.js.map",
+    "main.js": "/landing-concept/static/js/main.c3ff50f1.chunk.js",
+    "main.js.map": "/landing-concept/static/js/main.c3ff50f1.chunk.js.map",
     "runtime-main.js": "/landing-concept/static/js/runtime-main.ab846e28.js",
     "runtime-main.js.map": "/landing-concept/static/js/runtime-main.ab846e28.js.map",
     "static/js/2.9a173c35.chunk.js": "/landing-concept/static/js/2.9a173c35.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ab846e28.js",
     "static/js/2.9a173c35.chunk.js",
     "static/css/main.6922a833.chunk.css",
-    "static/js/main.38a40cb5.chunk.js"
+    "static/js/main.c3ff50f1.chunk.js"
   ]
 }
