@@ -1,0 +1,18 @@
+.copyright {
+  position: absolute;
+  z-index: 1;
+  color: grey;
+  font-size: 15px;
+  right: 0;
+  font-family: Roboto;
+  font-weight: 100;
+  margin-right: 2em;
+  bottom: 40px;
+  text-decoration: none;
+  border-bottom: 2px dashed transparent;
+
+
+  &:hover {
+    border-bottom: 2px dashed grey;
+  }
+}
