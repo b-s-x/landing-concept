@@ -40,7 +40,7 @@ export const animateLoader = (
   line1.to(`.${item}`, {
     delay: 3,
     duration: 3,
-    x: 170,
+    x: '50%',
     ease: Linear
   })
   .to(`.${item}`, {
