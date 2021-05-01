@@ -67,6 +67,7 @@ export const animateContent = (
   mediaItem
 ) => {
   const line = new TimelineLite()
+  const line2 = new TimelineLite()
 
   line.from(`.${contentTitle}`, {
     delay: 5,
@@ -80,7 +81,7 @@ export const animateContent = (
     opacity: 0,
     y: 20,
     ease: Expo.easeInOut
-  }, "-=2")
+  }, "-=1")
   .from(`.${text2}`, {
     delay: 1,
     duration: 2,
@@ -101,7 +102,9 @@ export const animateContent = (
     y: 20,
     ease: Expo.easeInOut
   }, "-=2")
-  .staggerFrom(`.${mediaItem}`, 1, {
+
+  line2.staggerFrom(`.${mediaItem}`, 1, {
+    delay: 10,
     opacity: 0,
     stagger: 0.25,
     y: 20,
