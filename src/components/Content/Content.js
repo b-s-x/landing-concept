@@ -17,7 +17,7 @@ export const Content = () => {
   return (
     <div className={content.content}>
       <div className={content.content__title} >
-        <span className={content.content__title__item}> The connected world</span>
+        <span className={content.content__title__item}> Landing concept</span>
       </div>
 
       <div className={content.content__text}>
@@ -44,7 +44,12 @@ export const Content = () => {
           <div className={content.media__item}><ion-icon name="logo-facebook"></ion-icon></div>
           <div className={content.media__item}><ion-icon name="logo-instagram"></ion-icon></div>
           <div className={content.media__item}><ion-icon name="logo-twitter"></ion-icon></div>
-          <div className={content.media__item}><ion-icon name="logo-youtube"></ion-icon></div>
+          <a
+            href="https://github.com/b-s-x/landing-concept"
+            target="_blank"
+            rel="noreferrer"
+            className={content.media__item}
+          ><ion-icon name="logo-github"></ion-icon></a>
         </div>
       </div>
 
